@@ -13,11 +13,17 @@
     tailwind.config = {
       theme: {
         extend: {
+            
           colors: {
             'bike-primary':'#E76F51',
             'bike-primary-bg':'rgba(231, 111, 81, 0.1)',
-          }
-        }
+          },
+          boxShadow: {
+            'shadow-bike':'5px 20px 4px 0px rgba(0, 0, 0, 0.15)',
+            }
+         
+        },
+        
       }
     }
   </script>
@@ -156,6 +162,57 @@
                 <div><img src="images/others/feature-bike.png" alt=""></div>
             </div>
          </section>
+
+         <!-- Latest News section -->
+          <section class="mt-32 ">
+            <h2 class="text-center mb-12 font-semibold text-5xl">Latest News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-5 pl-5">
+                <div class="card bg-base-100 w-96 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+                    <figure>
+                      <img class="mt-4"
+                        src="images/others/latest1.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn border-2 border-bike-primary bg-white text-bike-primary hover:bg-bike-primary hover:text-white hover:border-none hover:opacity-100 ">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card bg-base-100 w-96 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+                    <figure>
+                      <img class="mt-4"
+                        src="images/others/latest2.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn border-2 border-bike-primary bg-white text-bike-primary hover:bg-bike-primary hover:text-white hover:border-none hover:opacity-100">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card bg-base-100 w-96 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+                    <figure>
+                      <img class="mt-4"
+                        src="images/others/latest3.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn border-2 border-bike-primary bg-white text-bike-primary hover:bg-bike-primary hover:text-white hover:border-none hover:opacity-100">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            
+          </section>
 
     </main>
 
